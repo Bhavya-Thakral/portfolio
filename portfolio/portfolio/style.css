@@ -1,0 +1,308 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.body {
+    background-color: rgb(166, 166, 207);
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+section{
+    min-height: 100vh;
+    
+}
+
+header {
+    margin: 0px;
+    padding: 10px 20px;
+    background-color: purple;
+    color: white;
+    width: 100%;
+    position:fixed;
+}
+
+nav>div>a>img {
+    border-radius: 50%;
+    width: auto;
+    height: 50px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 25px;
+    text-decoration: solid;
+    margin: 0px;
+
+}
+
+nav ul {
+
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+    font-size: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color: lavender;
+    font-size: 1.4rem;
+}
+
+
+
+.left {
+    padding-left: 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+
+}
+
+#first {
+    background-color: rgb(166, 166, 207);
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 60px 10px 10px;
+}
+
+#first div {
+    width: 40%;
+}
+
+.leftSection,
+rightSection {
+    font-family: 'Poppins', sans-serif;
+    height: 65vh;
+    margin: 50px 0;
+    padding: 50px 0;
+}
+
+.button{
+    background-color: rgb(119, 119, 176);
+    padding:10px;
+    border-radius: 30px;
+}
+.button:hover{
+    opacity: 0.6;
+}
+
+.rightSection>img {
+    padding: 50px;
+    border-radius: 18%;
+    height: 90vh;
+    width: 100%;
+}
+
+.lav ,#element{
+    color: rgb(133, 13, 166);
+}
+
+#second{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(183, 135, 178);
+}
+
+#second>#about{
+    position: absolute;
+    right: 5%;
+    height: 100%;
+    width: 35%;
+    top: 40%;
+    transform: translateY(-50%);
+}
+
+
+.secondRight>.box{
+    display: flex;
+    align-items: flex-start;
+    padding: 10px 20px 0px;
+    height: 33.3%;
+    width: 50%;
+    border-top: 2px solid black;
+    margin: 50px;
+}
+.secondRight>.box>h5{
+    font-size: 20px;
+    margin: 20px;
+}
+.secondRight>.box>ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:flex-start;
+    margin-top: 5px;
+    list-style: none;
+}
+.secondRight>.box>li{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 50%;
+    
+}
+
+.secondLeft{
+    margin: 50px;
+    height: 30%;
+    width: 50%;
+    position: absolute;
+    z-index: 10;
+}
+
+
+
+
+.secondLeft>h1{
+        font-size: 50px;
+        margin-top: 10px;
+        
+}
+.secondLeft>h5{
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: 50;
+    width: 100%;
+    
+}
+
+
+#third{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(238, 213, 239);
+}
+
+#projects>h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    text-decoration-line: underline;
+}
+
+#pro{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50%;
+    width: 90%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 5%;
+}
+
+.my{
+    border-top: 2px solid black;
+    height: 100%;
+    width: 31%;
+}
+
+#one{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    height: 30%;
+    width: 100%;
+}
+
+#img{
+    height: 70%;
+    width: 100%;
+}
+
+#img>img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.p1 img{
+    height: 200px;
+    width: 300px;
+}
+
+.p2{
+    position: relative;
+    top: -20%;
+}
+.p3{
+    position: relative;
+    top: -50%;
+}
+
+
+
+
+#footer{
+    background-color: rgb(164, 40, 154);
+    color: white;
+    position: relative;
+    height: 50%;
+    width: 100vw;
+    
+}
+
+.collab {
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.btn {
+    padding: 7px 7px;
+
+}
+
+.social {
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn>img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    bottom: 40px;
+    border: none;
+    margin-top: 50px;
+}
+
+.copy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
